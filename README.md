@@ -8,3 +8,10 @@ The file will automatically install all the requirements
 
 
 ```bash init_setup.sh ```
+
+
+```mkdocs serve``` 
+to run locally
+
+```mkdocs build```
+to build the website
