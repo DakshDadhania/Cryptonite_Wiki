@@ -7,8 +7,8 @@ nav:
   - Reversing: reverse.md
   - Pwning: pwn.md
   - Forensics: forensics.md
-  - Steganography: steg.md
-  - Cryptogrphy: crypto.md
+  #- Steganography: steg.md
+  - Cryptography: crypto.md
   - Web: web.md
   - Research: research.md
 
@@ -17,8 +17,8 @@ site_description: >-
   Wiki site for cryptonite
 
 # Repository
-repo_name: Cryptonite-MIT
-repo_url: https://github.com/Cryptonite-MIT
+#repo_name: Cryptonite-MIT
+#repo_url: https://github.com/Cryptonite-MIT
 
 # Configuration
 theme:
