@@ -4,12 +4,12 @@ site_name: Cryptonite Wiki
 nav:
   - Home: index.md
   - Basics: basics.md
+  - Cryptography: crypto.md
   - Reversing: reverse.md
   - Pwning: pwn.md
   - Forensics: forensics.md
-  #- Steganography: steg.md
-  - Cryptography: crypto.md
   - Web: web.md
+  - Attack Defense: attackDefense.md
   - Research: research.md
 
 site_author: Daksh Dadhania
