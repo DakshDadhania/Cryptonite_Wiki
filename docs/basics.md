@@ -36,8 +36,7 @@ Jokes aside, here goes:
         - Cryptography
         - Web Exploitation
         - Forensics 
-        - Pwn
-        - Reverse Engineering
+        - Binary Exploitation
         - Attack and Defense
 
 

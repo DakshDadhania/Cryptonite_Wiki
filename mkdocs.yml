@@ -5,12 +5,10 @@ nav:
   - Home: index.md
   - Basics: basics.md
   - Cryptography: crypto.md
-  - Reversing: reverse.md
-  - Pwning: pwn.md
   - Forensics: forensics.md
   - Web: web.md
   - Attack Defense: attackDefense.md
-  - Research: research.md
+  - Binary Exploitation: binexp.md
 
 site_author: Daksh Dadhania
 site_description: >-
