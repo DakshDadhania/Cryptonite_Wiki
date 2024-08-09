@@ -5,7 +5,6 @@ nav:
   - Home: index.md
   - Basics: basics.md
   - Cryptography: crypto.md
-  - Forensics: forensics.md
   - Web: web.md
   - Attack Defense: attackDefense.md
   - Binary Exploitation: binexp.md
