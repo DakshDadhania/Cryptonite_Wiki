@@ -1,0 +1,1311 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Wiki site for cryptonite">
+      
+      
+        <meta name="author" content="Daksh Dadhania">
+      
+      
+      
+        <link rel="prev" href="../crypto/">
+      
+      
+        <link rel="next" href="../attackDefense/">
+      
+      
+      <link rel="icon" href="https://cryptonitemit.com/img/favicon.jpg">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.43">
+    
+    
+      
+        <title>Web - Cryptonite Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.0253249f.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#web-exploitation-wiki" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Cryptonite Wiki" class="md-header__button md-logo" aria-label="Cryptonite Wiki" data-md-component="logo">
+      
+  <img src="https://cryptonitemit.com/img/favicon.jpg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Cryptonite Wiki
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Web
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="purple"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="lime"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../basics/" class="md-tabs__link">
+        
+  
+    
+  
+  Basics
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../crypto/" class="md-tabs__link">
+        
+  
+    
+  
+  Cryptography
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+    
+  
+  Web
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../attackDefense/" class="md-tabs__link">
+        
+  
+    
+  
+  Attack Defense
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../binexp/" class="md-tabs__link">
+        
+  
+    
+  
+  Binary Exploitation
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Cryptonite Wiki" class="md-nav__button md-logo" aria-label="Cryptonite Wiki" data-md-component="logo">
+      
+  <img src="https://cryptonitemit.com/img/favicon.jpg" alt="logo">
+
+    </a>
+    Cryptonite Wiki
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../basics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Basics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../crypto/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cryptography
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Web
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Web
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview-of-web-application-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overview of Web Application Security
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#understanding-security-threats" class="md-nav__link">
+    <span class="md-ellipsis">
+      Understanding Security Threats
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Understanding Security Threats">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#common-security-threats" class="md-nav__link">
+    <span class="md-ellipsis">
+      Common Security Threats
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-owasp-top-10-vulnerabilities" class="md-nav__link">
+    <span class="md-ellipsis">
+      The OWASP Top 10 Vulnerabilities
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#web-development-and-security-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      Web Development and Security Tools
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Web Development and Security Tools">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#client-side-technologies" class="md-nav__link">
+    <span class="md-ellipsis">
+      Client-Side Technologies
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#server-side-languages" class="md-nav__link">
+    <span class="md-ellipsis">
+      Server-Side Languages
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#important-web-mechanisms" class="md-nav__link">
+    <span class="md-ellipsis">
+      Important Web Mechanisms
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#developer-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      Developer Tools
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vulnerabilities-and-exploits" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vulnerabilities and Exploits
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../attackDefense/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Attack Defense
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../binexp/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Binary Exploitation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="web-exploitation-wiki">Web Exploitation Wiki</h1>
+<h2 id="overview-of-web-application-security">Overview of Web Application Security</h2>
+<p>Web Application Security is a specialized area within Information Security that focuses on safeguarding websites, web applications, and web services. It leverages application security principles specifically for the web, ensuring the integrity, confidentiality, and availability of web applications.</p>
+<h2 id="understanding-security-threats">Understanding Security Threats</h2>
+<p>A security threat is a potential risk that could exploit vulnerabilities in a computer system, leading to unauthorized access or damage. These threats can be intentional, such as cyber-attacks, or accidental, such as system failures or natural disasters.</p>
+<h3 id="common-security-threats">Common Security Threats</h3>
+<ul>
+<li>
+<p><strong>Virus Threats</strong>: Viruses are malicious software programs designed to infect legitimate software, corrupt data, and modify the way applications operate without the user's consent.</p>
+</li>
+<li>
+<p><strong>Hackers and Predators</strong>: The human element behind threats, hackers use their technical expertise to bypass security measures and gain unauthorized access to computer systems.</p>
+</li>
+<li>
+<p><strong>Phishing</strong>: A technique used to deceive users into providing sensitive information by masquerading as a trustworthy entity in digital communication.</p>
+</li>
+</ul>
+<h3 id="the-owasp-top-10-vulnerabilities">The OWASP Top 10 Vulnerabilities</h3>
+<p>The Open Web Application Security Project (OWASP) identifies the most critical web application security risks. Key vulnerabilities include Injection, Broken Authentication, Sensitive Data Exposure, XML External Entities (XXE), Broken Access Control, Security Misconfiguration, Cross-Site Scripting (XSS), Insecure Deserialization, Using Components with Known Vulnerabilities, and Insufficient Logging &amp; Monitoring.</p>
+<h2 id="web-development-and-security-tools">Web Development and Security Tools</h2>
+<h3 id="client-side-technologies">Client-Side Technologies</h3>
+<ul>
+<li><strong>HTML</strong>: The standard markup language for creating web pages.</li>
+<li><strong>JavaScript</strong>: A programming language that enables interactive web pages.</li>
+<li><strong>CSS</strong>: A style sheet language used for describing the presentation of a document written in HTML or XML.</li>
+<li><strong>jQuery</strong>: A fast, small, and feature-rich JavaScript library.</li>
+</ul>
+<h3 id="server-side-languages">Server-Side Languages</h3>
+<ul>
+<li><strong>PHP</strong></li>
+<li><strong>JavaScript (Node.js)</strong></li>
+<li><strong>Ruby</strong></li>
+<li><strong>Python</strong></li>
+</ul>
+<h3 id="important-web-mechanisms">Important Web Mechanisms</h3>
+<ul>
+<li><strong>Cookies and Sessions</strong>: Essential for managing user sessions and storing user preferences.</li>
+<li><strong>HTTP Headers and Requests</strong>: Fundamental components of the HTTP protocol that facilitate client-server communication.</li>
+<li><strong>HTTP Methods</strong>: GET, POST, PUT, DELETE, CONNECT, HEAD, OPTIONS, TRACE, PATCH, each serving a specific purpose in HTTP transactions.</li>
+</ul>
+<h3 id="developer-tools">Developer Tools</h3>
+<p>Modern browsers include developer tools for debugging and testing web applications, offering features like JavaScript debugging, network analysis, and DOM manipulation.</p>
+<h2 id="vulnerabilities-and-exploits">Vulnerabilities and Exploits</h2>
+<hr />
+<h1 id="comprehensive-guide-to-in-depth-web-exploitation-learning">Comprehensive Guide to In-Depth Web Exploitation Learning</h1>
+<p>This guide consolidates knowledge on various web exploitation techniques. Each section covers a specific vulnerability, including resources, types of solutions, and common attack methods.</p>
+<hr />
+<p>For more advanced topics, practical exercises, and essential tools, the guide includes sections on:</p>
+<ul>
+<li><strong>Local File Inclusion (LFI) to RCE</strong></li>
+<li><strong>CSRF (Cross-Site Request Forgery)</strong></li>
+<li><strong>Directory Traversal</strong></li>
+<li><strong>WebSocket Security</strong></li>
+<li><strong>Session Hijacking</strong></li>
+<li><strong>Subdomain Takeover</strong></li>
+<li><strong>SSRF (Server-Side Request Forgery)</strong></li>
+<li><strong>Deserialization Vulnerabilities</strong></li>
+<li><strong>API Security</strong></li>
+</ul>
+<p>This guide provides a structured approach to mastering web exploitation techniques. Engage in CTF</p>
+<p>challenges, contribute to open-source projects, and stay updated with the latest security trends and tools.</p>
+<h3 id="quick-links">Quick Links</h3>
+<ul>
+<li><a href="https://book.hacktricks.xyz/">HackTricks</a></li>
+<li><a href="https://owasp.org/">OWASP</a></li>
+<li><a href="https://www.theodinproject.com/">The Odin Project</a></li>
+<li><a href="https://jwt.io/">JWT.io</a></li>
+<li><a href="https://tryhackme.com/">TryHackMe</a></li>
+<li><a href="https://www.hackthebox.eu/">Hack The Box</a></li>
+<li><a href="https://www.hackerone.com/">HackerOne</a></li>
+<li><a href="https://portswigger.net/burp">Burp Suite</a></li>
+<li><a href="https://www.wireshark.org/">Wireshark</a></li>
+<li><a href="https://portswigger.net/web-security">PortSwigger Web Security Academy</a></li>
+</ul>
+<hr />
+<p>Here’s a detailed breakdown of each web exploitation challenge format including challenge type, resources, solution types, and potential attacks.</p>
+<hr />
+<h3 id="1-reverse-shell-exploitation">1. <strong>Reverse Shell Exploitation</strong></h3>
+<ul>
+<li><strong>Challenge Type</strong>: Reverse Shell Access</li>
+<li><strong>Resources</strong>:</li>
+<li><a href="http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet">Pentestmonkey Reverse Shell Cheat Sheet</a></li>
+<li><a href="https://null-byte.wonderhowto.com/how-to/use-netcat-like-pro-hack-with-best-of-them-0160467/">Netcat Guide for Reverse Shells</a></li>
+<li><strong>Types of Solutions</strong>:</li>
+<li><strong>Direct Shell Invocation</strong>: Using <code>bash</code>, <code>nc</code>, or <code>Python</code> commands to redirect shell input/output to an attacker's server.</li>
+<li><strong>Payload Embedding</strong>: Injecting shell commands in vulnerable applications to initiate a reverse shell connection.</li>
+<li><strong>Attacks</strong>:</li>
+<li><strong>Command Injection</strong>: Embedding reverse shell commands in web forms or URL parameters.</li>
+<li><strong>File Upload</strong>: Uploading scripts that execute reverse shells, allowing attackers to control the server remotely.</li>
+</ul>
+<hr />
+<h3 id="2-cross-site-scripting-xss">2. <strong>Cross-Site Scripting (XSS)</strong></h3>
+<ul>
+<li><strong>Challenge Type</strong>: Client-Side Injection (DOM-based, Reflected, Stored)</li>
+<li><strong>Resources</strong>:</li>
+<li><a href="https://owasp.org/www-project-cheat-sheets/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html">OWASP XSS Prevention Cheat Sheet</a></li>
+<li><a href="https://portswigger.net/web-security/cross-site-scripting">PortSwigger XSS Labs</a></li>
+<li><strong>Types of Solutions</strong>:</li>
+<li><strong>Client-Side Filtering</strong>: Using libraries like DOMPurify for sanitizing inputs.</li>
+<li><strong>Server-Side Input Validation</strong>: Stripping or encoding dangerous characters.</li>
+<li><strong>Attacks</strong>:</li>
+<li><strong>Session Hijacking</strong>: Injecting scripts to steal cookies and impersonate users.</li>
+<li><strong>Malware Distribution</strong>: Redirecting users to download malicious files.</li>
+<li><strong>Phishing</strong>: Creating fake login forms within the website to capture user credentials.</li>
+</ul>
+<hr />
+<h3 id="3-sql-injection-sqli">3. <strong>SQL Injection (SQLi)</strong></h3>
+<ul>
+<li><strong>Challenge Type</strong>: SQL Database Manipulation</li>
+<li><strong>Resources</strong>:</li>
+<li><a href="https://owasp.org/www-community/attacks/SQL_Injection">OWASP SQL Injection Guide</a></li>
+<li><a href="https://book.hacktricks.xyz/pentesting-web/sql-injection">HackTricks SQL Injection Techniques</a></li>
+<li><strong>Types of Solutions</strong>:</li>
+<li><strong>Parameterized Queries</strong>: Avoiding dynamic query concatenation and using prepared statements.</li>
+<li><strong>Escaping Inputs</strong>: Using functions like <code>mysqli_real_escape_string()</code> to sanitize inputs.</li>
+<li><strong>Attacks</strong>:</li>
+<li><strong>Database Dump</strong>: Extracting data from the database by injecting <code>UNION SELECT</code> or <code>INFORMATION_SCHEMA</code> queries.</li>
+<li><strong>Authentication Bypass</strong>: Manipulating authentication queries to gain unauthorized access.</li>
+<li><strong>Blind SQL Injection</strong>: Extracting data by observing server responses without seeing the database output.</li>
+</ul>
+<hr />
+<h3 id="4-file-upload-vulnerabilities">4. <strong>File Upload Vulnerabilities</strong></h3>
+<ul>
+<li><strong>Challenge Type</strong>: Unrestricted File Upload</li>
+<li><strong>Resources</strong>:</li>
+<li><a href="https://owasp.org/www-community/vulnerabilities/Unrestricted_File_Upload">OWASP Unrestricted File Upload Guide</a></li>
+<li><a href="https://portswigger.net/web-security/file-upload">PortSwigger File Upload Labs</a></li>
+<li><strong>Types of Solutions</strong>:</li>
+<li><strong>Content-Type Validation</strong>: Checking for acceptable file types (e.g., <code>.jpg</code>, <code>.png</code>).</li>
+<li><strong>Filename Restrictions</strong>: Preventing executable file uploads with <code>.php</code>, <code>.js</code>, etc.</li>
+<li><strong>Attacks</strong>:</li>
+<li><strong>Web Shell Upload</strong>: Uploading a PHP or ASP file to execute commands.</li>
+<li><strong>Malware Distribution</strong>: Hosting malicious files on the server for unsuspecting users to download.</li>
+<li><strong>Remote Code Execution (RCE)</strong>: Using uploaded files to run arbitrary code on the server.</li>
+</ul>
+<hr />
+<h3 id="5-server-side-template-injection-ssti">5. <strong>Server-Side Template Injection (SSTI)</strong></h3>
+<ul>
+<li><strong>Challenge Type</strong>: Template Engine Manipulation</li>
+<li><strong>Resources</strong>:</li>
+<li><a href="https://book.hacktricks.xyz/pentesting-web/ssti-server-side-template-injection">HackTricks SSTI Exploitation</a></li>
+<li><a href="https://portswigger.net/web-security/server-side-template-injection">PortSwigger Template Injection Labs</a></li>
+<li><strong>Types of Solutions</strong>:</li>
+<li><strong>Escape User Input</strong>: Avoid embedding user-controlled variables in templates.</li>
+<li><strong>Input Filtering</strong>: Strip out special characters and dangerous input patterns.</li>
+<li><strong>Attacks</strong>:</li>
+<li><strong>Code Execution</strong>: Injecting code that the template engine evaluates (e.g., <code>{{7*7}}</code>).</li>
+<li><strong>File Access</strong>: Using template syntax to read files (e.g., <code>{{ open('/etc/passwd').read() }}</code>).</li>
+<li><strong>Data Leakage</strong>: Accessing server-side data through template variables.</li>
+</ul>
+<hr />
+<h3 id="6-cross-origin-resource-sharing-cors-misconfiguration">6. <strong>Cross-Origin Resource Sharing (CORS) Misconfiguration</strong></h3>
+<ul>
+<li><strong>Challenge Type</strong>: CORS Policy Manipulation</li>
+<li><strong>Resources</strong>:</li>
+<li><a href="https://owasp.org/www-community/attacks/CORS_Misconfiguration">OWASP CORS Misconfiguration Guide</a></li>
+<li><a href="https://portswigger.net/web-security/cors">PortSwigger CORS Labs</a></li>
+<li><strong>Types of Solutions</strong>:</li>
+<li><strong>Proper Policy Definition</strong>: Setting allowed origins and headers correctly.</li>
+<li><strong>Avoid Wildcards</strong>: Restricting access to trusted origins only.</li>
+<li><strong>Attacks</strong>:</li>
+<li><strong>Data Theft</strong>: Accessing sensitive data through unauthorized CORS requests.</li>
+<li><strong>Session Hijacking</strong>: Sending unauthorized requests from a malicious site.</li>
+<li><strong>Credential Theft</strong>: Leveraging CORS to trick users into exposing credentials.</li>
+</ul>
+<hr />
+<h3 id="7-graphql-injection">7. <strong>GraphQL Injection</strong></h3>
+<ul>
+<li><strong>Challenge Type</strong>: GraphQL Query Manipulation</li>
+<li><strong>Resources</strong>:</li>
+<li><a href="https://cheatsheetseries.owasp.org/cheatsheets/GraphQL_Cheat_Sheet.html">OWASP GraphQL Cheat Sheet</a></li>
+<li><a href="https://portswigger.net/web-security/graphql">PortSwigger GraphQL Security Labs</a></li>
+<li><strong>Types of Solutions</strong>:</li>
+<li><strong>Query Limitations</strong>: Limit query depth and restrict nested queries.</li>
+<li><strong>Access Control</strong>: Ensure users can only query data they are authorized to see.</li>
+<li><strong>Attacks</strong>:</li>
+<li><strong>Data Enumeration</strong>: Using queries like <code>__schema</code> to map database structures.</li>
+<li><strong>Sensitive Data Exposure</strong>: Accessing restricted data by exploiting weak authorization.</li>
+<li><strong>Denial of Service (DoS)</strong>: Crafting overly complex queries to overload the server.</li>
+</ul>
+<hr />
+<h3 id="8-dns-exfiltration">8. <strong>DNS Exfiltration</strong></h3>
+<ul>
+<li><strong>Challenge Type</strong>: Data Exfiltration through DNS Requests</li>
+<li><strong>Resources</strong>:</li>
+<li><a href="https://owasp.org/www-community/attacks/DNS_Exfiltration">OWASP DNS Exfiltration Guide</a></li>
+<li><a href="https://www.sans.org/blog/dns-data-exfiltration-techniques/">SANS DNS Data Exfiltration</a></li>
+<li><strong>Types of Solutions</strong>:</li>
+<li><strong>Monitor DNS Traffic</strong>: Use IDS/IPS to detect unusual patterns.</li>
+<li><strong>Restrict DNS Resolution</strong>: Limit outgoing DNS requests to trusted domains.</li>
+<li><strong>Attacks</strong>:</li>
+<li><strong>Data Leakage</strong>: Encoding sensitive data in DNS queries to an attacker-controlled domain.</li>
+<li><strong>C2 Communication</strong>: Using DNS as a covert channel to control malware.</li>
+<li><strong>Credential Theft</strong>: Extracting passwords or tokens through DNS requests.</li>
+</ul>
+<hr />
+<h3 id="9-hashcat-for-password-cracking">9. <strong>Hashcat for Password Cracking</strong></h3>
+<ul>
+<li><strong>Challenge Type</strong>: Brute-Forcing Password Hashes</li>
+<li><strong>Resources</strong>:</li>
+<li><a href="https://hashcat.net/hashcat/">Hashcat Documentation</a></li>
+<li><a href="https://www.4armed.com/blog/using-hashcat-crack-passwords/">Cracking Passwords with Hashcat</a></li>
+<li><strong>Types of Solutions</strong>:</li>
+<li><strong>Dictionary Attack</strong>: Using known password lists (e.g., rockyou.txt).</li>
+<li><strong>Hybrid Attack</strong>: Combining dictionary words with appended characters.</li>
+<li><strong>Attacks</strong>:</li>
+<li><strong>Credential Recovery</strong>: Recovering passwords from hashes to access accounts.</li>
+<li><strong>Hash Cracking</strong>: Decrypting sensitive information stored as hashes.</li>
+<li><strong>Authentication Bypass</strong>: Using cracked hashes to impersonate users.</li>
+</ul>
+<hr />
+<h3 id="10-command-injection-htmx">10. <strong>Command Injection (HTMX)</strong></h3>
+<ul>
+<li><strong>Challenge Type</strong>: HTMX Command Injection</li>
+<li><strong>Resources</strong>:</li>
+<li><a href="https://owasp.org/www-community/attacks/Command_Injection">OWASP Command Injection</a></li>
+<li><a href="https://portswigger.net/web-security/os-command-injection">PortSwigger Command Injection Labs</a></li>
+<li><strong>Types of Solutions</strong>:</li>
+<li><strong>Sanitize Input</strong>: Avoid executing user input directly as commands.</li>
+<li><strong>Whitelist Commands</strong>: Allow only safe commands or arguments.</li>
+<li><strong>Attacks</strong>:</li>
+<li><strong>Remote Code Execution (RCE)</strong>: Gaining shell access to the server.</li>
+<li><strong>Privilege Escalation</strong>: Executing commands to gain higher access levels.</li>
+<li><strong>Data Manipulation</strong>: Modifying system files or configurations.</li>
+</ul>
+<hr />
+<h4 id="11-aws-iam-metadata-enumeration">11. <strong>AWS IAM Metadata Enumeration</strong></h4>
+<ul>
+<li><strong>Challenge Type</strong>: AWS Metadata Information Leakage</li>
+<li><strong>Resources</strong>:</li>
+<li><a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instancedata-data-retrieval.html">AWS Metadata Service Guide</a></li>
+<li><a href="https://portswigger.net/web-security/ssrf/exploiting-ssrf-to-access-aws-instance-metadata">SSRF and AWS Metadata</a></li>
+<li><strong>Types of Solutions</strong>:</li>
+<li><strong>Metadata Filtering</strong>: Ensure metadata endpoints are accessible only from secure sources.</li>
+<li><strong>Restrict SSRF</strong>: Use firewalls and IAM policies to prevent SSRF attacks on metadata.</li>
+<li><strong>Attacks</strong>:</li>
+<li><strong>Credential Exposure</strong>: Retrieve IAM credentials via <code>http://169.254.169.254</code> endpoint.</li>
+<li><strong>Privilege Escalation</strong>: Use IAM tokens to access other AWS resources improperly.</li>
+</ul>
+<hr />
+<h4 id="12-aws-s3-versioning-exploitation">12. <strong>AWS S3 Versioning Exploitation</strong></h4>
+<ul>
+<li><strong>Challenge Type</strong>: Access and Manipulation of S3 Object Versions</li>
+<li><strong>Resources</strong>:</li>
+<li><a href="https://docs.aws.amazon.com/AmazonS3/latest/userguide/Versioning.html">AWS S3 Versioning</a></li>
+<li><a href="https://aws.amazon.com/s3/security/">S3 Security Best Practices</a></li>
+<li><strong>Types of Solutions</strong>:</li>
+<li><strong>Access Control Lists (ACLs)</strong>: Ensure only authorized users can access versioned objects.</li>
+<li><strong>Restrict Bucket Access</strong>: Limit public access and enforce MFA for sensitive objects.</li>
+<li><strong>Attacks</strong>:</li>
+<li><strong>Data Tampering</strong>: Access older or sensitive versions to compromise integrity.</li>
+<li><strong>Unauthorized Access</strong>: Exploit publicly available S3 buckets to retrieve data.</li>
+</ul>
+<hr />
+<h4 id="13-brute-forcing-with-pwntools">13. <strong>Brute-Forcing with Pwntools</strong></h4>
+<ul>
+<li><strong>Challenge Type</strong>: Password Guessing via Brute-Force</li>
+<li><strong>Resources</strong>:</li>
+<li><a href="https://docs.pwntools.com/en/stable/">Pwntools Documentation</a></li>
+<li><a href="https://owasp.org/www-community/attacks/Brute_force_attack">Brute-Force Attack Techniques</a></li>
+<li><strong>Types of Solutions</strong>:</li>
+<li><strong>Rate Limiting</strong>: Implement a delay or restrict repeated attempts.</li>
+<li><strong>Captcha Verification</strong>: Use captchas to prevent automated attempts.</li>
+<li><strong>Attacks</strong>:</li>
+<li><strong>Password Cracking</strong>: Systematically try passwords until the correct one is found.</li>
+<li><strong>Credential Stuffing</strong>: Use common passwords or leaked passwords from other breaches.</li>
+</ul>
+<hr />
+<h4 id="14-replay-attack-with-multi-processing">14. <strong>Replay Attack with Multi-Processing</strong></h4>
+<ul>
+<li><strong>Challenge Type</strong>: Replay Attack Simulation</li>
+<li><strong>Resources</strong>:</li>
+<li><a href="https://owasp.org/www-community/attacks/Replay_Attack">OWASP Replay Attacks</a></li>
+<li><a href="https://owasp.org/www-project-cheat-sheets/cheatsheets/Authentication_Cheat_Sheet.html#replay-protection">Mitigating Replay Attacks</a></li>
+<li><strong>Types of Solutions</strong>:</li>
+<li><strong>Nonce Usage</strong>: Require unique nonces for each request to prevent reuse.</li>
+<li><strong>Timestamp Verification</strong>: Expire old requests by checking timestamps.</li>
+<li><strong>Attacks</strong>:</li>
+<li><strong>Session Reuse</strong>: Capture and reuse valid sessions or tokens.</li>
+<li><strong>Data Manipulation</strong>: Repeat actions (like transfers) multiple times without detection.</li>
+</ul>
+<hr />
+<h4 id="15-endianness-conversion">15. <strong>Endianness Conversion</strong></h4>
+<ul>
+<li><strong>Challenge Type</strong>: File Manipulation and Byte Reordering</li>
+<li><strong>Resources</strong>:</li>
+<li><a href="https://en.wikipedia.org/wiki/Endianness">Endianness Explained</a></li>
+<li><a href="https://docs.python.org/3/library/struct.html">Data Manipulation with Python</a></li>
+<li><strong>Types of Solutions</strong>:</li>
+<li><strong>Standardize Byte Order</strong>: Ensure data is interpreted correctly by converting to a uniform endianness.</li>
+<li><strong>Attacks</strong>:</li>
+<li><strong>File Corruption</strong>: Use endianness manipulation to corrupt data.</li>
+<li><strong>Malicious Payload Injection</strong>: Reorder bytes to execute unexpected commands on certain systems.</li>
+</ul>
+<hr />
+<h4 id="16-hash-length-extension-attack">16. <strong>Hash Length Extension Attack</strong></h4>
+<ul>
+<li><strong>Challenge Type</strong>: Hash Manipulation and Extension</li>
+<li><strong>Resources</strong>:</li>
+<li><a href="https://crypto.stackexchange.com/questions/16689/what-is-the-length-extension-attack">Hash Length Extension Attacks</a></li>
+<li><a href="https://owasp.org/www-project-cheat-sheets/cheatsheets/Password_Storage_Cheat_Sheet.html">OWASP Hashing Guidelines</a></li>
+<li><strong>Types of Solutions</strong>:</li>
+<li><strong>Use HMACs</strong>: Ensure secure hash functions like HMAC to prevent hash manipulation.</li>
+<li><strong>Attacks</strong>:</li>
+<li><strong>Hash Forgery</strong>: Append data to an existing hash and compute a valid signature.</li>
+<li><strong>Data Tampering</strong>: Modify messages without invalidating their hash.</li>
+</ul>
+<hr />
+<h4 id="17-image-manipulation-with-pil">17. <strong>Image Manipulation with PIL</strong></h4>
+<ul>
+<li><strong>Challenge Type</strong>: Image Generation and Coordinate Mapping</li>
+<li><strong>Resources</strong>:</li>
+<li><a href="https://pillow.readthedocs.io/en/stable/">Pillow (PIL) Documentation</a></li>
+<li><a href="https://www.geeksforgeeks.org/python-pil-imagedraw-draw-point-using-xy/">Python Data Visualization with PIL</a></li>
+<li><strong>Types of Solutions</strong>:</li>
+<li><strong>Data Masking</strong>: Hide coordinates or sensitive information before plotting.</li>
+<li><strong>Coordinate Verification</strong>: Ensure that image coordinates do not reveal sensitive locations.</li>
+<li><strong>Attacks</strong>:</li>
+<li><strong>Location Disclosure</strong>: Extract sensitive location data from plotted coordinates.</li>
+<li><strong>Data Exposure</strong>: Generate images that reveal private data through visual cues.</li>
+</ul>
+<hr />
+<h4 id="18-pbkdf2-key-derivation-and-cracking">18. <strong>PBKDF2 Key Derivation and Cracking</strong></h4>
+<ul>
+<li><strong>Challenge Type</strong>: Hash Cracking with PBKDF2</li>
+<li><strong>Resources</strong>:</li>
+<li><a href="https://en.wikipedia.org/wiki/PBKDF2">PBKDF2 Key Derivation Function</a></li>
+<li><a href="https://owasp.org/www-project-cheat-sheets/cheatsheets/Password_Storage_Cheat_Sheet.html">OWASP Password Storage</a></li>
+<li><strong>Types of Solutions</strong>:</li>
+<li><strong>Increase Iterations</strong>: Use a high iteration count to slow down cracking.</li>
+<li><strong>Salt Uniquely</strong>: Add unique salts for each password to make cracking harder.</li>
+<li><strong>Attacks</strong>:</li>
+<li><strong>Password Cracking</strong>: Derive passwords from stored PBKDF2 hashes.</li>
+<li><strong>Dictionary Attacks</strong>: Use known password lists to crack hashes with common patterns.</li>
+</ul>
+<hr />
+<h4 id="19-pickle-deserialization-exploitation">19. <strong>Pickle Deserialization Exploitation</strong></h4>
+<ul>
+<li><strong>Challenge Type</strong>: Insecure Deserialization with Pickle</li>
+<li><strong>Resources</strong>:</li>
+<li><a href="https://docs.python.org/3/library/pickle.html">Python Pickle Module Documentation</a></li>
+<li><a href="https://owasp.org/www-community/vulnerabilities/Deserialization_of_untrusted_data">Insecure Deserialization Attacks</a></li>
+<li><strong>Types of Solutions</strong>:</li>
+<li><strong>Avoid Pickle</strong>: Use safer serialization methods like JSON.</li>
+<li><strong>Input Validation</strong>: Validate and sanitize data before deserializing.</li>
+<li><strong>Attacks</strong>:</li>
+<li><strong>Remote Code Execution</strong>: Execute arbitrary commands during deserialization.</li>
+<li><strong>Data Leakage</strong>: Access and exfiltrate sensitive data using malicious objects.</li>
+</ul>
+<hr />
+<h4 id="20-sql-injection-with-substring-bruteforce">20. <strong>SQL Injection with Substring Bruteforce</strong></h4>
+<ul>
+<li><strong>Challenge Type</strong>: SQL Injection with LIKE Brute-Forcing</li>
+<li><strong>Resources</strong>:</li>
+<li><a href="https://portswigger.net/web-security/sql-injection/cheat-sheet">SQL Injection Cheat Sheet</a></li>
+<li><a href="https://owasp.org/www-project-cheat-sheets/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html">OWASP SQL Injection Prevention</a></li>
+<li><strong>Types of Solutions</strong>:</li>
+<li><strong>Parameterized Queries</strong>: Prevent SQL injection by avoiding direct string concatenation.</li>
+<li><strong>Input Sanitization</strong>: Escape dangerous characters and enforce strict input validation.</li>
+<li><strong>Attacks</strong>:</li>
+<li><strong>Credential Stealing</strong>: Extract credentials by brute-forcing individual characters.</li>
+<li><strong>Database Dumping</strong>: Leak database contents by incrementally guessing values.</li>
+</ul>
+<hr />
+<h4 id="21-sql-injection-with-substring-brute-force">21. <strong>SQL Injection with Substring Brute-Force</strong></h4>
+<ul>
+<li><strong>Challenge Type</strong>: SQL Injection with Substring Brute-Forcing</li>
+<li><strong>Resources</strong>:</li>
+<li><a href="https://owasp.org/www-community/attacks/SQL_Injection">SQL Injection Guide - OWASP</a></li>
+<li><a href="https://portswigger.net/web-security/sql-injection/cheat-sheet">SQL Injection Cheat Sheet - PortSwigger</a></li>
+<li><strong>Types of Solutions</strong>:</li>
+<li><strong>Parameterization</strong>: Use parameterized queries to avoid direct SQL query construction.</li>
+<li><strong>Rate Limiting</strong>: Limit repeated attempts to avoid brute-force attacks on individual characters.</li>
+<li><strong>Attacks</strong>:</li>
+<li><strong>Credential Extraction</strong>: Retrieve sensitive information by brute-forcing characters of values like passwords.</li>
+<li><strong>Database Dumping</strong>: Slowly gather table data by iterating through substrings.</li>
+</ul>
+<hr />
+<h4 id="22-websocket-manipulation-and-data-streaming">22. <strong>WebSocket Manipulation and Data Streaming</strong></h4>
+<ul>
+<li><strong>Challenge Type</strong>: WebSocket Data Manipulation</li>
+<li><strong>Resources</strong>:</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API">WebSocket Documentation - MDN</a></li>
+<li><a href="https://book.hacktricks.xyz/network-services-pentesting/websocket">Real-Time WebSocket Exploits - HackTricks</a></li>
+<li><strong>Types of Solutions</strong>:</li>
+<li><strong>Event Filtering</strong>: Ensure only authorized data is processed by WebSocket listeners.</li>
+<li><strong>Input Validation</strong>: Prevent data tampering by sanitizing data before handling WebSocket events.</li>
+<li><strong>Attacks</strong>:</li>
+<li><strong>Data Manipulation</strong>: Use WebSocket to modify and transmit crafted data.</li>
+<li><strong>Information Disclosure</strong>: Leak server or user information via crafted messages sent over WebSocket.</li>
+</ul>
+<hr />
+<h4 id="23-character-brute-forcing-for-flag-extraction">23. <strong>Character Brute-Forcing for Flag Extraction</strong></h4>
+<ul>
+<li><strong>Challenge Type</strong>: Character-by-Character Brute-Force for Secrets</li>
+<li><strong>Resources</strong>:</li>
+<li><a href="https://owasp.org/www-community/attacks/Brute_force_attack">Brute-Force Techniques - OWASP</a></li>
+<li><a href="https://book.hacktricks.xyz/pentesting-web/firebase-database">Pentesting Firebase for Secrets</a></li>
+<li><strong>Types of Solutions</strong>:</li>
+<li><strong>Input Throttling</strong>: Limit the rate of requests to prevent brute-force attempts.</li>
+<li><strong>Access Restriction</strong>: Ensure that sensitive endpoints aren’t accessible to unauthorized users.</li>
+<li><strong>Attacks</strong>:</li>
+<li><strong>Secret Discovery</strong>: Reveal flags or sensitive strings by iteratively testing character combinations.</li>
+<li><strong>Credential Exposure</strong>: Expose user credentials by discovering password characters sequentially.</li>
+</ul>
+<hr />
+<h4 id="24-converting-curl-to-sqlmap-commands">24. <strong>Converting curl to SQLMap Commands</strong></h4>
+<ul>
+<li><strong>Challenge Type</strong>: Automating SQL Injection Testing with SQLMap</li>
+<li><strong>Resources</strong>:</li>
+<li><a href="https://sqlmap.org/">SQLMap Documentation</a></li>
+<li><a href="https://github.com/spulec/uncurl">Uncurl Documentation - Python</a></li>
+<li><strong>Types of Solutions</strong>:</li>
+<li><strong>Automated Scanning</strong>: Utilize SQLMap to automate SQL injection testing.</li>
+<li><strong>String Sanitization</strong>: Validate and sanitize inputs before converting them into commands.</li>
+<li><strong>Attacks</strong>:</li>
+<li><strong>Database Compromise</strong>: Leverage SQLMap to automatically probe for SQL injection points.</li>
+<li><strong>Data Exfiltration</strong>: Dump databases using SQLMap to uncover stored information.</li>
+</ul>
+<hr />
+<h4 id="25-google-cloud-storage-blob-downloader">25. <strong>Google Cloud Storage Blob Downloader</strong></h4>
+<ul>
+<li><strong>Challenge Type</strong>: Google Cloud Storage Enumeration and Download</li>
+<li><strong>Resources</strong>:</li>
+<li><a href="https://cloud.google.com/storage/docs">Google Cloud Storage Documentation</a></li>
+<li><a href="https://cloud.google.com/security">Google Cloud Security Best Practices</a></li>
+<li><strong>Types of Solutions</strong>:</li>
+<li><strong>Access Control Enforcement</strong>: Set IAM roles to control access to storage buckets.</li>
+<li><strong>Audit Logging</strong>: Enable logging to track access to storage resources.</li>
+<li><strong>Attacks</strong>:</li>
+<li><strong>Data Leakage</strong>: Download sensitive files stored in public or misconfigured buckets.</li>
+<li><strong>Privilege Escalation</strong>: Access sensitive resources using compromised credentials.</li>
+</ul>
+<hr />
+<h4 id="26-captcha-ocr-for-bypassing-verification">26. <strong>Captcha OCR for Bypassing Verification</strong></h4>
+<ul>
+<li><strong>Challenge Type</strong>: Bypassing Captchas using OCR</li>
+<li><strong>Resources</strong>:</li>
+<li><a href="https://tesseract-ocr.github.io/">Tesseract OCR Documentation</a></li>
+<li><a href="https://book.hacktricks.xyz/pentesting-web/automated-captcha-solving">Automated Captcha Solving - HackTricks</a></li>
+<li><strong>Types of Solutions</strong>:</li>
+<li><strong>Complex Captchas</strong>: Use advanced captcha techniques that can’t be easily bypassed by OCR.</li>
+<li><strong>Behavioral Analysis</strong>: Detect bot-like behavior to block automated captcha solvers.</li>
+<li><strong>Attacks</strong>:</li>
+<li><strong>Captcha Bypass</strong>: Use OCR to bypass captchas and automate requests.</li>
+<li><strong>Account Takeover</strong>: Gain unauthorized access to accounts by bypassing captchas.</li>
+</ul>
+<hr />
+<h4 id="27-pwntools-based-buffer-overflow-exploitation">27. <strong>Pwntools-Based Buffer Overflow Exploitation</strong></h4>
+<ul>
+<li><strong>Challenge Type</strong>: Exploiting Buffer Overflow for Control</li>
+<li><strong>Resources</strong>:</li>
+<li><a href="https://docs.pwntools.com/en/stable/">Pwntools Documentation</a></li>
+<li><a href="https://owasp.org/www-community/attacks/Buffer_Overflow">Buffer Overflow Guide - OWASP</a></li>
+<li><strong>Types of Solutions</strong>:</li>
+<li><strong>Input Length Validation</strong>: Ensure buffers are appropriately sized for user inputs.</li>
+<li><strong>Stack Protection</strong>: Enable stack canaries and ASLR to prevent overflow attacks.</li>
+<li><strong>Attacks</strong>:</li>
+<li><strong>Shellcode Injection</strong>: Inject shellcode to execute arbitrary commands.</li>
+<li><strong>Memory Manipulation</strong>: Overwrite return addresses to control program flow.</li>
+</ul>
+<hr />
+<h4 id="28-simple-pin-brute-force-for-bypassing-authentication">28. <strong>Simple PIN Brute-Force for Bypassing Authentication</strong></h4>
+<ul>
+<li><strong>Challenge Type</strong>: PIN Brute-Forcing for Authentication Bypass</li>
+<li><strong>Resources</strong>:</li>
+<li><a href="https://owasp.org/www-community/attacks/Brute_force_attack">Brute-Force PIN Recovery - OWASP</a></li>
+<li><a href="https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html">CAPTCHA &amp; PIN Security</a></li>
+<li><strong>Types of Solutions</strong>:</li>
+<li><strong>Throttling</strong>: Limit login attempts to prevent brute-force attacks.</li>
+<li><strong>Strong PIN Requirements</strong>: Use longer, alphanumeric PINs to increase difficulty.</li>
+<li><strong>Attacks</strong>:</li>
+<li><strong>Authentication Bypass</strong>: Iterate through PINs to gain unauthorized access.</li>
+<li><strong>Account Takeover</strong>: Gain access to accounts with weak or default PINs.</li>
+</ul>
+<hr />
+<h4 id="29-simple-pin-brute-force-attack">29. <strong>Simple PIN Brute-Force Attack</strong></h4>
+<ul>
+<li><strong>Challenge Type</strong>: PIN Brute-Force Attack for Login</li>
+<li><strong>Resources</strong>:</li>
+<li><a href="https://owasp.org/www-community/attacks/Brute_force_attack">Brute-Force Attack - OWASP</a></li>
+<li><a href="https://requests.readthedocs.io/en/master/">Python Requests Library for Web Exploits</a></li>
+<li><strong>Types of Solutions</strong>:</li>
+<li><strong>Throttling Mechanism</strong>: Implement rate-limiting to prevent multiple requests.</li>
+<li><strong>Multi-factor Authentication (MFA)</strong>: Add MFA to increase the complexity of PIN access.</li>
+<li><strong>Attacks</strong>:</li>
+<li><strong>PIN Guessing</strong>: Attempts to brute-force short PINs for unauthorized access.</li>
+<li><strong>Credential Discovery</strong>: Used for testing multiple combinations to gain entry into accounts with simple PINs【85†source】.</li>
+</ul>
+<hr />
+<h4 id="30-sql-injection-with-url-encoding">30. <strong>SQL Injection with URL Encoding</strong></h4>
+<ul>
+<li><strong>Challenge Type</strong>: SQL Injection through URL-encoded Payloads</li>
+<li><strong>Resources</strong>:</li>
+<li><a href="https://owasp.org/www-community/attacks/SQL_Injection">SQL Injection Attack - OWASP</a></li>
+<li><a href="https://portswigger.net/web-security/sql-injection/cheat-sheet">URL Encoding in SQL Injections</a></li>
+<li><strong>Types of Solutions</strong>:</li>
+<li><strong>Parameterized Queries</strong>: Prevent SQL injections by avoiding direct query construction.</li>
+<li><strong>Payload Filtering</strong>: Validate and sanitize URL-encoded strings in user inputs.</li>
+<li><strong>Attacks</strong>:</li>
+<li><strong>Database Enumeration</strong>: Retrieve data by injecting SQL commands through URL parameters.</li>
+<li><strong>Authentication Bypass</strong>: Bypass login mechanisms by submitting payloads that alter SQL logic【86†source】.</li>
+</ul>
+<hr />
+<h4 id="31-prototype-pollution-in-sql-injection">31. <strong>Prototype Pollution in SQL Injection</strong></h4>
+<ul>
+<li><strong>Challenge Type</strong>: Prototype Pollution in SQL Queries</li>
+<li><strong>Resources</strong>:</li>
+<li><a href="https://book.hacktricks.xyz/pentesting-web/prototype-pollution">Prototype Pollution - HackTricks</a></li>
+<li><a href="https://portswigger.net/research/exploiting-prototype-pollution-in-javascript-applications">SQL Injection in Prototypes</a></li>
+<li><strong>Types of Solutions</strong>:</li>
+<li><strong>Input Validation</strong>: Block keywords like <code>__proto__</code> to prevent prototype manipulation.</li>
+<li><strong>Object Freezing</strong>: Freeze objects to make them immutable against prototype changes.</li>
+<li><strong>Attacks</strong>:</li>
+<li><strong>Object Injection</strong>: Modify prototypes to inject arbitrary properties.</li>
+<li><strong>Privilege Escalation</strong>: Use prototype pollution to influence SQL queries and gain unauthorized access【87†source】.</li>
+</ul>
+<hr />
+<h4 id="32-rotational-cipher-key-brute-force-tuctf-challenge">32. <strong>Rotational Cipher Key Brute-Force (TUCTF Challenge)</strong></h4>
+<ul>
+<li><strong>Challenge Type</strong>: Brute-Forcing Rotational Ciphers</li>
+<li><strong>Resources</strong>:</li>
+<li><a href="https://docs.pwntools.com/en/stable/">Pwntools for Exploitation</a></li>
+<li><a href="https://crypto.stackexchange.com/questions/26614/understanding-rot-13-cipher">ROT Cipher Analysis</a></li>
+<li><strong>Types of Solutions</strong>:</li>
+<li><strong>Key Restriction</strong>: Use strong cryptographic ciphers instead of rotational ciphers.</li>
+<li><strong>Rate Limiting</strong>: Restrict the number of decryption attempts to avoid brute-forcing.</li>
+<li><strong>Attacks</strong>:</li>
+<li><strong>Key Guessing</strong>: Iteratively attempt multiple rotational keys to decrypt or access data.</li>
+<li><strong>Data Manipulation</strong>: Modify cipher keys to alter encrypted messages in transit【88†source】.</li>
+</ul>
+<hr />
+<h4 id="33-unicode-based-exploitation-in-payloads">33. <strong>Unicode-Based Exploitation in Payloads</strong></h4>
+<ul>
+<li><strong>Challenge Type</strong>: Unicode Manipulation in Payloads</li>
+<li><strong>Resources</strong>:</li>
+<li><a href="https://owasp.org/www-community/controls/Unicode_Security_Considerations">Unicode Security Considerations - OWASP</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Unicode_security">Unicode Encoding &amp; Exploits</a></li>
+<li><strong>Types of Solutions</strong>:</li>
+<li><strong>Character Encoding</strong>: Ensure payloads are encoded in a single charset to avoid multi-language injections.</li>
+<li><strong>Sanitization</strong>: Validate inputs to prevent harmful characters in Unicode payloads.</li>
+<li><strong>Attacks</strong>:</li>
+<li><strong>Obfuscation</strong>: Use Unicode to mask or encode payloads that bypass basic filters.</li>
+<li><strong>Code Injection</strong>: Exploit Unicode for command injection in different language encodings【89†source】.</li>
+</ul>
+<hr />
+<h4 id="34-remote-charset-detection-and-payload-transmission">34. <strong>Remote Charset Detection and Payload Transmission</strong></h4>
+<ul>
+<li><strong>Challenge Type</strong>: Charset Identification for Payload Injection</li>
+<li><strong>Resources</strong>:</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Type">Charset Security in Payloads</a></li>
+<li><a href="https://portswigger.net/web-security/character-encoding">Remote Character Set Manipulation</a></li>
+<li><strong>Types of Solutions</strong>:</li>
+<li><strong>Strict Charset Definition</strong>: Define and enforce character sets for inputs and outputs.</li>
+<li><strong>Payload Encoding</strong>: Encode payloads in standard charsets to avoid misinterpretation.</li>
+<li><strong>Attacks</strong>:</li>
+<li><strong>Remote Code Execution</strong>: Exploit charsets to manipulate code execution on remote servers.</li>
+<li><strong>Payload Obfuscation</strong>: Use non-standard characters to hide payloads in transmission【90†source】.</li>
+</ul>
+<hr />
+<h4 id="35-path-correction-in-graph-networks-fix-paths">35. <strong>Path Correction in Graph Networks (Fix Paths)</strong></h4>
+<ul>
+<li><strong>Challenge Type</strong>: Graph Traversal for Path Discovery</li>
+<li><strong>Resources</strong>:</li>
+<li><a href="https://en.wikipedia.org/wiki/Pathfinding">Graph Theory and Pathfinding Algorithms</a></li>
+<li><a href="https://medium.com/swlh/graph-theory-in-computer-science-98a8a9d3d0a3">Using Graphs in Exploits</a></li>
+<li><strong>Types of Solutions</strong>:</li>
+<li><strong>Shortest Path Validation</strong>: Use reliable pathfinding algorithms (e.g., Dijkstra’s) for accurate paths.</li>
+<li><strong>Cycle Detection</strong>: Detect and manage cycles to prevent endless traversals.</li>
+<li><strong>Attacks</strong>:</li>
+<li><strong>Traversal Manipulation</strong>: Alter paths in a graph to reroute or redirect processes.</li>
+<li><strong>Infinite Loops</strong>: Create cyclical paths to exploit loop handling in algorithms【91†source】【92†source】.</li>
+</ul>
+<hr />
+<h2 id="conclusion">Conclusion</h2>
+<p>This wiki serves as a comprehensive guide to understanding and mitigating web application vulnerabilities. By adhering to security best practices and staying informed about potential threats, developers and security professionals can safeguard web applications against exploitation.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      &copy; 2022 <a href="https://github.com/Cryptonite-MIT"  target="_blank" rel="noopener">Cryptonite MIT</a>
+
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/Cryptonite-MIT" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1M480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2m-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3m-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://twitter.com/" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://linkedin.com/in/" target="_blank" rel="noopener" title="linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5m282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.instagram.com/" target="_blank" rel="noopener" title="www.instagram.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141m0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7m146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8m76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8M398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections", "toc.integrate", "navigation.top"], "search": "../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+        <script src="../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
